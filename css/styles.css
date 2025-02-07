@@ -61,3 +61,72 @@ header{
     align-items: center;
 }
 /* **************************************/
+/************* nav *****************/
+.nav__storyTray {
+    background: var(--lorem-container);
+    width: 100%;
+    height: 105.75px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    overflow-x: scroll;
+    gap: 12px;
+}
+.nav__storyTray > .div__storyUser {
+    flex: 1;
+    background: var(--lorem-item);
+    min-width: 72px;
+    height: 97.75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div__storyUser-container{
+    width: 60.63px;
+    height: 60.63px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+    border: 3.5px solid transparent;
+    background: 
+    linear-gradient(var(--lorem-item-box),var(--lorem-item-box)) padding-box,  
+    linear-gradient(225deg, #c8c8c8, #e9e9e9, black) border-box;
+    background-clip: padding-box, border-box;
+}
+.div__storyUser-container::before{
+    content: " ";
+    width: 50.63px;
+    height: 50.63px;
+    position: absolute;
+    border: 2.5px solid #fff;
+    border-radius: 100%;
+}
+.div__storyUser-container img{
+    width: 100%;
+    height: 100%;
+}
+/***************** lorem **************/
+.div__storyUser-container::after{
+    content: "64 x 54";
+    font-family: sans-serif;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* **************************************/
+/* **************************************/
+.div__storyUser span{
+    background: var(--lorem-item-box);
+    width: 59.64px;
+    height: 25.75px;
+    padding: 0 6.18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
