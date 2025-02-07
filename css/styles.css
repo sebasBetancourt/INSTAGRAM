@@ -135,11 +135,38 @@ header{
 /*---------Footer------------*/
 
 .footer__navigationBar{
-    
+    width: 100%;
+    height: 50px;
+    background: var(--lorem-container);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 68px;
+    position: fixed;
+    bottom: 0;
+    padding: 0 15px;
 }
 .footer__navigationBar a{
     
 }
 .footer__navigationBar a img{
-    
+    width: 24px;
+    height: 24px;
+    position: relative;
 }
+
+/*----------------lorem------------------*/
+
+.footer__navigationBar a img::after{
+    content: "24 x 24";
+    font-family: sans-serif;
+    background: var(--lorem-item);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------------------------------*/
