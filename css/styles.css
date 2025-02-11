@@ -1,4 +1,6 @@
 @import url(variables.css);
+
+
 *{
     padding: 0;
     margin: 0;
@@ -191,7 +193,7 @@ header{
 .div__avatarInfo-perfil h4{
 
 }
-..div__avatarInfo-perfil span{
+.div__avatarInfo-perfil span{
 
 }
 .div__post{
