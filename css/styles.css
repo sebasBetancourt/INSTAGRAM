@@ -6,7 +6,6 @@
 }
 /************* Header *****************/
 header{
-    background: var(--lorem-container);
     width: 100%;
     height: 40px;
     display: flex;
@@ -20,31 +19,25 @@ header{
     align-items: center;
     width: 128px;
     height: 30px;
-    background: var(--lorem-item);
 }
 .div__logo img:first-child{
-    background: var(--lorem-item-box);
 }
 .div__logo img:last-child{
     width: 16px;
     height: 16px;
-    background: var(--lorem-item-box);
 }
 .div__options {
     width: 120px;
     height: 24px;
-    background: var(--lorem-item);
     display: flex;
     gap: 24px;
 }
 .div__options img{
     width: 24px;
     height: 24px;
-    background: var(--lorem-item-box);
 }
 /************* nav *****************/
 .nav__storyTray {
-    background: var(--lorem-container);
     width: 100%;
     height: 105.75px;
     display: flex;
@@ -55,7 +48,6 @@ header{
 }
 .nav__storyTray > .div__storyUser {
     flex: 1;
-    background: var(--lorem-item);
     min-width: 72px;
     height: 97.75px;
     display: flex;
@@ -104,7 +96,6 @@ header{
     height: 100%;
 }
 .div__storyUser span{
-    background: var(--lorem-item-box);
     font-family: "sf-ui-display-thin";
     font-weight: 900;
     color: var(--color-1);
@@ -133,7 +124,6 @@ header{
 
 .div__avatarInfo{
     grid-area: avatarInfo;
-    background: var(--lorem-item);
     display: flex;
     align-items: center;
     gap: 8px;
@@ -168,21 +158,18 @@ header{
 }
 .div__avatarInfo-perfil h4{
     color: var(--color-1);
-    background: var(--lorem-item-box);
     font-family: "sf-ui-display-bold";
     font-size: 12px;
 
 }
 .div__avatarInfo-perfil span{
     color: var(--color-1);
-    background: var(--lorem-item-box);
     font-family: "sf-ui-display-thin";
     font-size: 11px;
 
 }
 .div__post{
     grid-area: post;
-    background: var(--lorem-container);
     position: relative;
 }
 .div__post::before{
@@ -198,12 +185,10 @@ header{
     width: 100%;
     height: 100%;
     object-fit: contain;
-    background: var(--lorem-item);
 }
 
 .div__postOptions{
     grid-area: postOptions;
-    background: var(--lorem-container);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -212,7 +197,6 @@ header{
 .div__postOptions a {
     width: 24px;
     height: 24px;
-    background: var(--lorem-item);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,21 +204,18 @@ header{
 
 .div__postInfo{
     grid-area: postInfo;
-    background: var(--lorem-container);
     padding: 0 13px;
 }
 
 .div__postInfo span{
     display: block;
     padding-top: 10px;
-    background: var(--lorem-item);
     font-family: "sf-ui-display-bold";
     color: var( --color-1);
 }
 .div__postInfo p{
     padding-top: 10px;
     color: var( --color-1);
-    background: var(--lorem-item);
     font-family: "sf-ui-display-thin";
     font-weight: 900;
     font-size: 14px;
@@ -249,7 +230,6 @@ header{
 }
 .div__postInfo form{
     padding-top: 10px;
-    background: var(--lorem-item);
 }
 .div__postInfo form textarea{
     resize: none;
@@ -264,7 +244,6 @@ header{
     align-items: center;
 }
 .div__leftIcons {
-    background: var(--lorem-item);
     display: flex;
     gap: 12px
 }
@@ -277,7 +256,6 @@ header{
 .div__leftIcons a img{
 }
 .div__rigthIcons {
-    background: var(--lorem-item);
 }
 .div__rigthIcons a img{
     width: 24px;
@@ -293,7 +271,6 @@ header{
 .footer__navigationBar{
     width: 100%;
     height: 56px;
-    background: var(--lorem-container);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -318,7 +295,6 @@ header{
 .footer__navigationBar a img::after{
     content: "24 x 24";
     font-family: sans-serif;
-    background: var(--lorem-item);
     width: 100%;
     height: 100%;
     position: absolute;
